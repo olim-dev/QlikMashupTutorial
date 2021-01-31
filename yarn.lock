@@ -865,10 +865,35 @@
   resolved "https://registry.yarnpkg.com/@nebula.js/sn-bar-chart/-/sn-bar-chart-0.2.3.tgz#3695af5de9cb8556d8b7eb4e42df98286f486860"
   integrity sha512-WwtzQPK2WseBhCX/RQXI+iUJuFZiWpI60284hbwKzbSJvkf/V+QeMtmGV7MpAQZzE10IbLQDj2/K0myAZt1fpw==
 
-"@nebula.js/stardust@1.1.0-alpha0":
-  version "1.1.0-alpha0"
-  resolved "https://registry.yarnpkg.com/@nebula.js/stardust/-/stardust-1.1.0-alpha0.tgz#c8cf09d8a106932911d77c001c046be4ccc7da6e"
-  integrity sha512-vIp6sm5ZZwm6jaRh1yKRfGWH5zUKjpo4kk7Xvvp5awD8kJmQO5wSkEvdZ7XGR7VH3tTbRQ1LYIQZZyRXXLDRRQ==
+"@nebula.js/sn-funnel-chart@^0.3.8":
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/@nebula.js/sn-funnel-chart/-/sn-funnel-chart-0.3.8.tgz#5f7bd2cd4081704baf6f2e2e6af4c42f6f93dc5a"
+  integrity sha512-Us6mNvWCo6VtEs8u4cczR4bq0GaYNxLG52RfNZNN83VGasQ4Orthp8Ulo91sVYpFkyHEdMQ//FsxsO6n6AEMUw==
+
+"@nebula.js/sn-line-chart@^0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@nebula.js/sn-line-chart/-/sn-line-chart-0.2.7.tgz#9a03f709a7dfe9e4fe9cfa538a896c5c19b6a881"
+  integrity sha512-HvXjeEv6FZfYrqx/RzRcnM7FapxktcH4Wojl/N+H51sxyshCU0nnbARVnh+kjPRexDkWunJ6eustYPtrVXMqxw==
+
+"@nebula.js/sn-mekko-chart@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@nebula.js/sn-mekko-chart/-/sn-mekko-chart-1.0.4.tgz#b553730e15f886dfce8a38e6a109f70cc169893a"
+  integrity sha512-68bpPo8MvbnVwTIPl2gJQp5pGOTtwFvFV4CUDKVnJR0w+62URAxsA5YiRdl16oHmocxqVZSWtZXW/neNHWYvuw==
+
+"@nebula.js/sn-pie-chart@^0.7.6":
+  version "0.7.6"
+  resolved "https://registry.yarnpkg.com/@nebula.js/sn-pie-chart/-/sn-pie-chart-0.7.6.tgz#0124662a4e9b87adfcdfbe07d34a8cf70732b0c1"
+  integrity sha512-uARUVUaWl1hKo6foJI3zaR9Ba/z4F9MYyRylvpsYizMD0UoHTt5QoYuVD0D6uhiAvOo8nCkgvkPUxRRxyYHh8A==
+
+"@nebula.js/sn-sankey-chart@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@nebula.js/sn-sankey-chart/-/sn-sankey-chart-0.5.2.tgz#2774b92d2613a143a239d8573e7efa4138399bdd"
+  integrity sha512-75/CTy7txYB0h4qG7M7rvd11/vBOsUx5z6VYuYgixgekQSE1bSniqUm3dYcYqiwtuiveTNrZqMoNi5E5eK/Gyg==
+
+"@nebula.js/stardust@^1.x":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@nebula.js/stardust/-/stardust-1.0.1.tgz#28c08fb857c14c96c929ca315922f24d63fc69b3"
+  integrity sha512-kk9i+roe5ArWBQFmadJ1z7GO+8PZRNCcfFnd0mKKPHNsZei5evBzvZy4X/ywxIIrbdLCuVajUEbyPhX3vEUo6w==
 
 "@nodelib/fs.stat@^1.1.2":
   version "1.1.3"
@@ -2465,6 +2490,11 @@ grapheme-breaker@^0.3.2:
     brfs "^1.2.0"
     unicode-trie "^0.3.1"
 
+hammerjs@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/hammerjs/-/hammerjs-2.0.8.tgz#04ef77862cff2bb79d30f7692095930222bf60f1"
+  integrity sha1-BO93hiz/K7edMPdpIJWTAiK/YPE=
+
 har-schema@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/har-schema/-/har-schema-2.0.0.tgz#a94c2224ebcac04782a0d9035521f24735b7ec92"
@@ -3661,6 +3691,21 @@ physical-cpu-count@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/physical-cpu-count/-/physical-cpu-count-2.0.0.tgz#18de2f97e4bf7a9551ad7511942b5496f7aba660"
   integrity sha1-GN4vl+S/epVRrXURlCtUlverpmA=
+
+picasso-plugin-hammer@>=0.29.2:
+  version "0.34.0"
+  resolved "https://registry.yarnpkg.com/picasso-plugin-hammer/-/picasso-plugin-hammer-0.34.0.tgz#45a4e51b12e87333fbec6b935fdd974e17c9c884"
+  integrity sha512-Bnqa+SQWbrvWijqFP909GiMwTXLUoyL3FzvIn9iZtOsV2ouNU9dj57aYWmqt3/VSm73wvYy4RBgStkb3HteJRw==
+
+picasso-plugin-q@>=0.33.0:
+  version "0.34.0"
+  resolved "https://registry.yarnpkg.com/picasso-plugin-q/-/picasso-plugin-q-0.34.0.tgz#ec4afd8eb4f5f6e2e3c8b4abf495b1576a7b4e53"
+  integrity sha512-WsVoaIqwqf29mnuIX1Xm3nnqol+k+4HRT1dNzq8ChudF6c9qxbHNQrqEpWLMvKouPP/NlergGFO2OY9Wo9h+ig==
+
+picasso.js@>=0.33.0:
+  version "0.34.0"
+  resolved "https://registry.yarnpkg.com/picasso.js/-/picasso.js-0.34.0.tgz#ac4b01926bc9d641032d2e97d906d4efeb98204b"
+  integrity sha512-Wot3FpTtBcgqr2IPd1eo6t3Y6fF63yjFuULizu6HRIeWpy4+sGGDU8VgX0pc+fRPL7ZzabbulsFIWeN8MhOk4A==
 
 pn@^1.1.0:
   version "1.1.0"

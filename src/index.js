@@ -13,17 +13,55 @@ async function run() {
 
   (await n.selections()).mount(document.querySelector('.toolbar'));
 
-  // Visualizing Data? - Render from App
+  // Visualizing Data! - Render from App
   n.render({
     element: document.querySelector('.object'),
     id: 'EAjjuyE', // Right click on Sheet > Developer // Grab Object ID
+  });
+
+  // Rendering without creating visualization in the app:
+  n.render({
+    element: document.querySelector('.object'),
+    type: 'linechart',
+    fields: ['title', '=avg(rating)'],
+    properties: {
+      showTitles: true,
+      title: 'Line Chart - Avg Rating',
+      subtitle: 'Visualizing Movie Data using a Line Chart 📉',
+    },
+  });
+    
+  // Cool! Trying different chart types (add type to configure.js)
+  n.render({
+    element: document.querySelector('.object'),
+    type: 'piechart',
+    fields: ['title', '=(revenue)'],
+    properties: {
+      showTitles: true,
+      title: 'Pie Chart - Revenue',
+      subtitle: 'Visualizing Movie Data using a Pie Chart ⭕',
+    },
+  });
+
+  n.render({
+    element: document.querySelector('.object'),
+    type: 'barchart',
+    fields: ['title', '=(runtime)'],
+    properties: {
+      showTitles: true,
+      title: 'Bar Chart - Run Time',
+      subtitle: 'Visualizing Movie Data using a Bar Chart 📊',
+    },
   });
 
 }
 
 run();
 
-//Properties for object above ☝
+
+
+
+// ************* For reference >> Properties of bar chart (EAjjuyE) ************
 // {
 //   "qInfo": {
 //     "qId": "EAjjuyE",
