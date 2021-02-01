@@ -21,7 +21,7 @@ async function run() {
 
   // Rendering without creating visualization in the app:
   n.render({
-    element: document.querySelector('.object'),
+    element: document.querySelector('.object1'),
     type: 'linechart',
     fields: ['title', '=avg(rating)'],
     properties: {
@@ -30,10 +30,10 @@ async function run() {
       subtitle: 'Visualizing Movie Data using a Line Chart 📉',
     },
   });
-    
+  
   // Cool! Trying different chart types (add type to configure.js)
   n.render({
-    element: document.querySelector('.object'),
+    element: document.querySelector('.object2'),
     type: 'piechart',
     fields: ['title', '=(revenue)'],
     properties: {
@@ -44,7 +44,7 @@ async function run() {
   });
 
   n.render({
-    element: document.querySelector('.object'),
+    element: document.querySelector('.object3'),
     type: 'barchart',
     fields: ['title', '=(runtime)'],
     properties: {
